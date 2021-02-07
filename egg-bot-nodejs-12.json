@@ -7,7 +7,7 @@
     "name": "NodeJS-12",
     "author": "derpy588@gmail.com",
     "description": "Bot NodeJS 12",
-    "image": "chaun14\/discord-js12",
+    "image": "derpy588\/Pterodactyl-Eggs\/tree\/Discord-NodeJS-12",
     "startup": "node ${STARTUP_FILE}",
     "config": {
         "files": "{}",
@@ -17,7 +17,7 @@
     },
     "scripts": {
         "installation": {
-            "script": "#!\/bin\/bash\r\nrm -rf \/mnt\/server\r\napt -y update\r\napt -y install wget unzip ffmpeg\r\nmkdir -p \/mnt\/server\/\r\nchown -R root:root \/mnt\r\ncd \/mnt\/server\/\r\nwget https:\/\/dev.chaun14.fr\/nodejsdefault.zip\r\nunzip nodejsdefault\r\nrm -rf nodejsdefault.zip",
+            "script": "#!\/bin\/bash\r\nrm -rf \/mnt\/server\r\napt -y update\r\napt -y install wget unzip ffmpeg\r\nmkdir -p \/mnt\/server\/\r\nchown -R root:root \/mnt\r\ncd \/mnt\/server\/\r\nwget https:\/\/github.com\/derpy588\/Pterodactyl-Eggs\/raw\/Discord-NodeJS-12\/NodeJS-Default.zip\r\nunzip NodeJS-Default\r\nrm -rf NodeJS-Default.zip",
             "container": "ubuntu:18.04",
             "entrypoint": "bash"
         }
